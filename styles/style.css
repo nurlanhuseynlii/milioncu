@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.millionaire-container {
+  width: 600px;
+  height: 300px;
+  background-color: wheat;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.millionaire-container .millionaire {
+  width: 80%;
+  height: 90%;
+}
+.millionaire-container .millionaire h3 {
+  text-align: center;
+}
+.millionaire-container .millionaire ol {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.millionaire-container .millionaire ol li {
+  font-size: 1.2rem;
+  margin: 20px;
+}
+.millionaire-container .millionaire ol li label {
+  cursor: pointer;
+}
+.millionaire-container #submit {
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
